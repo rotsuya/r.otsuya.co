@@ -1,0 +1,125 @@
+body {
+    background-color: #EEEEEE;
+}
+#innerborder{
+    border-left:15px solid #EEEEEE;
+    border-right:15px solid #EEEEEE;
+}
+#main {
+    width: 960px;
+}
+.post {
+    /* 2カラム
+    width: 375px;
+     */
+    /* 1カラム */
+    width: 810px;
+    margin-bottom: 100px;
+}
+.single .post,.single .chat table {
+    width: 810px;
+}
+h1 {
+    font-family:'OFL Sorts Mill Goudy TT', Georgia, 'Times New Roman', serif;
+}
+h3 {
+    font-family:'OFL Sorts Mill Goudy TT', Georgia, 'Times New Roman', serif;
+}
+pre.prettyprint {
+    overflow: auto;
+    font-size: 14px;
+}
+.subtitle {
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 440px;
+}
+.subtitle a:link, .subtitle a:visited {
+    color: rgb(0,0,0);
+    color: rgba(0,0,0,.8);
+    text-decoration: none;
+}
+.subtitle a:hover {
+    color:rgba(0,0,0);
+    color:rgba(0,0,0,.6);
+}
+.timestamp {
+    text-transform: none;
+}
+.timestamp_right {
+    text-transform: none;
+}
+pre {
+    margin-bottom:1.45em;
+}
+.photo img, .bodytype img, .shadow {
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+    padding: 0;
+    background: none;
+}
+.noshadow {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.photo p {
+    text-align: left;
+}
+.padding-8 {
+    padding: 8px;
+}
+.margin-8 {
+    margin: 8px;
+}
+.margin-0880 {
+    margin: 0 8px 8px 0;
+}
+.bodytype iframe {
+    border: 0;
+}
+strong.sesame {
+    font-weight: normal;
+    text-emphasis-style: sesame;
+    -webkit-text-emphasis-style: sesame;
+    -moz-text-emphasis-style: sesame;
+    -epub-text-emphasis-style: sesame;
+}
+h4 {
+    clear: both;
+    font-family: 'OFL Sorts Mill Goudy TT', Georgia, serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+h4 a:link, h4 a:visited {
+    color: rgb(0,0,0);
+    color: rgba(0,0,0,.8);
+    text-decoration: none;
+}
+p {
+    line-height: 1.8;
+    clear: both;
+}
+.bodytype li {
+    line-height: 1.8;
+}
+p.figure {
+    clear: none;
+    float: left;
+    margin-right: 8px;
+}
+span.figcaption {
+    display: block;
+}
+.timestamp {
+    height: 22px;
+}
+.fb_iframe_widget iframe[title="Like this content on Facebook."] {
+    vertical-align: baseline !important;
+}
+.twitter-share-button {
+    width: 105px !important;
+}

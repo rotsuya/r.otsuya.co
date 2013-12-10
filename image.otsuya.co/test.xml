@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GI timeStamp="2007-10-01T09:45:20" version="1.0"
+xsi:noNamespaceSchemaLocation="denshikokudo_XML.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataset>
+		<layer>
+			<name>imagedata_sample1</name>
+			<description>Sample 1</description>
+			<style>
+				<name>image_sample</name>
+				<type>image</type>
+				<display>on</display>
+				<transparent>off</transparent>
+				<selection>off</selection>
+				<displaylevel>all</displaylevel>
+				<plane>overlay</plane>
+			</style>
+			<image type="image/png" src="http://portal.cyberjapan.jp/image/photo.png">
+				<imageMapping>
+					<controlPoint>
+						<CRS uuidref="JGD2000 / (L, B)" />
+						<LeftBottomCorner>
+							<coordinate>140.082 36.105</coordinate>
+						</LeftBottomCorner>
+						<LeftTopCorner>
+							<coordinate>140.082 36.109</coordinate>
+						</LeftTopCorner>
+						<RightBottomCorner>
+							<coordinate>140.088 36.105</coordinate>
+						</RightBottomCorner>
+						<RightTopCorner>
+							<coordinate>140.088 36.109</coordinate>
+						</RightTopCorner>
+					</controlPoint>
+				</imageMapping>
+				<name>image1</name>
+				<description>image 1</description>
+				<attribute></attribute>
+			</image>
+		</layer>
+	</dataset>
+</GI>

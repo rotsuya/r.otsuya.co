@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GI timeStamp="2007-10-01T09:45:20" version="1.0"
+xsi:noNamespaceSchemaLocation="denshikokudo_XML.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataset>
+		<layer>
+			<name>image</name>
+			<description>image</description>
+			<style>
+				<name>image</name>
+				<type>image</type>
+				<display>on</display>
+				<transparent>on</transparent>
+				<selection>off</selection>
+				<displaylevel>all</displaylevel>
+				<plane>overlay</plane>
+			</style>
+			<image type="image/png" src="http://lh4.googleusercontent.com/-03ruH_Avq_4/Tpry5ze673I/AAAAAAAAB5k/cAT4bMeXKWs/s1600/kanagawa_sv.png">
+				<imageMapping>
+					<controlPoint>
+						<CRS uuidref="JGD2000 / (L, B)" />
+						<LeftBottomCorner>
+							<coordinate>138.915833333333 35.1288888888889</coordinate>
+						</LeftBottomCorner>
+						<LeftTopCorner>
+							<coordinate>138.915833333333 35.6727777777778</coordinate>
+						</LeftTopCorner>
+						<RightBottomCorner>
+							<coordinate>139.796111111111 35.1288888888889</coordinate>
+						</RightBottomCorner>
+						<RightTopCorner>
+							<coordinate>139.796111111111 35.6727777777778</coordinate>
+						</RightTopCorner>
+					</controlPoint>
+				</imageMapping>
+				<name></name>
+				<description></description>
+				<attribute></attribute>
+			</image>
+		</layer>
+	</dataset>
+</GI>
